@@ -14,7 +14,7 @@
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@babel/compat-data/-/compat-data-7.14.7.tgz#7b047d7a3a89a67d2258dc61f604f098f1bc7e08"
   integrity sha1-ewR9ejqJpn0iWNxh9gTwmPG8fgg=
 
-"@babel/core@^7.11.0":
+"@babel/core@^7.11.0", "@babel/core@^7.7.4":
   version "7.14.8"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@babel/core/-/core-7.14.8.tgz#20cdf7c84b5d86d83fac8710a8bc605a7ba3f010"
   integrity sha1-IM33yEtdhtg/rIcQqLxgWnuj8BA=
@@ -967,53 +967,6 @@
     string-width "^2.0.0"
     strip-ansi "^5"
 
-"@soda/get-current-script@^1.0.0":
-  version "1.0.2"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@soda/get-current-script/-/get-current-script-1.0.2.tgz#a53515db25d8038374381b73af20bb4f2e508d87"
-  integrity sha1-pTUV2yXYA4N0OBtzryC7Ty5QjYc=
-
-"@types/body-parser@*":
-  version "1.19.1"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/body-parser/-/body-parser-1.19.1.tgz#0c0174c42a7d017b818303d4b5d969cb0b75929c"
-  integrity sha1-DAF0xCp9AXuBgwPUtdlpywt1kpw=
-  dependencies:
-    "@types/connect" "*"
-    "@types/node" "*"
-
-"@types/connect-history-api-fallback@*":
-  version "1.3.5"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/connect-history-api-fallback/-/connect-history-api-fallback-1.3.5.tgz#d1f7a8a09d0ed5a57aee5ae9c18ab9b803205dae"
-  integrity sha1-0feooJ0O1aV67lrpwYq5uAMgXa4=
-  dependencies:
-    "@types/express-serve-static-core" "*"
-    "@types/node" "*"
-
-"@types/connect@*":
-  version "3.4.35"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/connect/-/connect-3.4.35.tgz#5fcf6ae445e4021d1fc2219a4873cc73a3bb2ad1"
-  integrity sha1-X89q5EXkAh0fwiGaSHPMc6O7KtE=
-  dependencies:
-    "@types/node" "*"
-
-"@types/express-serve-static-core@*", "@types/express-serve-static-core@^4.17.18":
-  version "4.17.24"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/express-serve-static-core/-/express-serve-static-core-4.17.24.tgz#ea41f93bf7e0d59cd5a76665068ed6aab6815c07"
-  integrity sha1-6kH5O/fg1ZzVp2ZlBo7WqraBXAc=
-  dependencies:
-    "@types/node" "*"
-    "@types/qs" "*"
-    "@types/range-parser" "*"
-
-"@types/express@*":
-  version "4.17.13"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/express/-/express-4.17.13.tgz#a76e2995728999bab51a33fabce1d705a3709034"
-  integrity sha1-p24plXKJmbq1GjP6vOHXBaNwkDQ=
-  dependencies:
-    "@types/body-parser" "*"
-    "@types/express-serve-static-core" "^4.17.18"
-    "@types/qs" "*"
-    "@types/serve-static" "*"
-
 "@types/glob@^7.1.1":
   version "7.1.4"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/glob/-/glob-7.1.4.tgz#ea59e21d2ee5c517914cb4bc8e4153b99e566672"
@@ -1022,37 +975,20 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/http-proxy@^1.17.5":
-  version "1.17.7"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/http-proxy/-/http-proxy-1.17.7.tgz#30ea85cc2c868368352a37f0d0d3581e24834c6f"
-  integrity sha1-MOqFzCyGg2g1Kjfw0NNYHiSDTG8=
-  dependencies:
-    "@types/node" "*"
-
 "@types/json-schema@^7.0.5":
   version "7.0.8"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/json-schema/-/json-schema-7.0.8.tgz#edf1bf1dbf4e04413ca8e5b17b3b7d7d54b59818"
   integrity sha1-7fG/Hb9OBEE8qOWxezt9fVS1mBg=
-
-"@types/mime@^1":
-  version "1.3.2"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/mime/-/mime-1.3.2.tgz#93e25bf9ee75fe0fd80b594bc4feb0e862111b5a"
-  integrity sha1-k+Jb+e51/g/YC1lLxP6w6GIRG1o=
 
 "@types/minimatch@*":
   version "3.0.5"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/minimatch/-/minimatch-3.0.5.tgz#1001cc5e6a3704b83c236027e77f2f58ea010f40"
   integrity sha1-EAHMXmo3BLg8I2An538vWOoBD0A=
 
-"@types/minimist@^1.2.0":
-  version "1.2.2"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
-  integrity sha1-7nceK6Sz3Fs3KTXVSf2WF780W4w=
-
 "@types/node@*":
-  version "16.4.4"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/node/-/node-16.4.4.tgz#bb0744c1dcc1fc374f51d3fd41d028331a2420d4"
-  integrity sha1-uwdEwdzB/DdPUdP9QdAoMxokINQ=
+  version "16.4.5"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/node/-/node-16.4.5.tgz#eac95d4e52775190c405f0b9061ddcfb0304f7fc"
+  integrity sha1-6sldTlJ3UZDEBfC5Bh3c+wME9/w=
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -1063,73 +999,6 @@
   version "1.5.5"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/q/-/q-1.5.5.tgz#75a2a8e7d8ab4b230414505d92335d1dcb53a6df"
   integrity sha1-daKo59irSyMEFFBdkjNdHctTpt8=
-
-"@types/qs@*":
-  version "6.9.7"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/qs/-/qs-6.9.7.tgz#63bb7d067db107cc1e457c303bc25d511febf6cb"
-  integrity sha1-Y7t9Bn2xB8weRXwwO8JdUR/r9ss=
-
-"@types/range-parser@*":
-  version "1.2.4"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
-  integrity sha1-zWZ7z90CUhOq+3ylkVqTJZCs3Nw=
-
-"@types/serve-static@*":
-  version "1.13.10"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/serve-static/-/serve-static-1.13.10.tgz#f5e0ce8797d2d7cc5ebeda48a52c96c4fa47a8d9"
-  integrity sha1-9eDOh5fS18xevtpIpSyWxPpHqNk=
-  dependencies:
-    "@types/mime" "^1"
-    "@types/node" "*"
-
-"@types/source-list-map@*":
-  version "0.1.2"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/source-list-map/-/source-list-map-0.1.2.tgz#0078836063ffaf17412349bba364087e0ac02ec9"
-  integrity sha1-AHiDYGP/rxdBI0m7o2QIfgrALsk=
-
-"@types/tapable@^1":
-  version "1.0.8"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/tapable/-/tapable-1.0.8.tgz#b94a4391c85666c7b73299fd3ad79d4faa435310"
-  integrity sha1-uUpDkchWZse3Mpn9OtedT6pDUxA=
-
-"@types/uglify-js@*":
-  version "3.13.1"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/uglify-js/-/uglify-js-3.13.1.tgz#5e889e9e81e94245c75b6450600e1c5ea2878aea"
-  integrity sha1-XoienoHpQkXHW2RQYA4cXqKHiuo=
-  dependencies:
-    source-map "^0.6.1"
-
-"@types/webpack-dev-server@^3.11.0":
-  version "3.11.5"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/webpack-dev-server/-/webpack-dev-server-3.11.5.tgz#f4a254a3dd0667c8ee4af90d42afdb4ad1d607f3"
-  integrity sha1-9KJUo90GZ8juSvkNQq/bStHWB/M=
-  dependencies:
-    "@types/connect-history-api-fallback" "*"
-    "@types/express" "*"
-    "@types/serve-static" "*"
-    "@types/webpack" "^4"
-    http-proxy-middleware "^1.0.0"
-
-"@types/webpack-sources@*":
-  version "2.1.1"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/webpack-sources/-/webpack-sources-2.1.1.tgz#6af17e3a3ded71eec2b98008d7c12f498a0a4506"
-  integrity sha1-avF+Oj3tce7CuYAI18EvSYoKRQY=
-  dependencies:
-    "@types/node" "*"
-    "@types/source-list-map" "*"
-    source-map "^0.7.3"
-
-"@types/webpack@^4", "@types/webpack@^4.0.0":
-  version "4.41.30"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@types/webpack/-/webpack-4.41.30.tgz#fd3db6d0d41e145a8eeeafcd3c4a7ccde9068ddc"
-  integrity sha1-/T220NQeFFqO7q/NPEp8zekGjdw=
-  dependencies:
-    "@types/node" "*"
-    "@types/tapable" "^1"
-    "@types/uglify-js" "*"
-    "@types/webpack-sources" "*"
-    anymatch "^3.0.0"
-    source-map "^0.6.0"
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   version "1.2.1"
@@ -1168,7 +1037,7 @@
     lodash.kebabcase "^4.1.1"
     svg-tags "^1.0.0"
 
-"@vue/babel-preset-app@^4.5.13":
+"@vue/babel-preset-app@^4.1.2":
   version "4.5.13"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/babel-preset-app/-/babel-preset-app-4.5.13.tgz#cb475321e4c73f7f110dac29a48c2a9cb80afeb6"
   integrity sha1-y0dTIeTHP38RDawppIwqnLgK/rY=
@@ -1253,79 +1122,80 @@
     "@vue/babel-plugin-transform-vue-jsx" "^1.2.1"
     camelcase "^5.0.0"
 
-"@vue/cli-overlay@^4.5.13":
+"@vue/cli-overlay@^4.1.2":
   version "4.5.13"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/cli-overlay/-/cli-overlay-4.5.13.tgz#4f1fd2161be8f69d6cba8079f3f0d7dc4dee47a7"
   integrity sha1-Tx/SFhvo9p1suoB58/DX3E3uR6c=
 
-"@vue/cli-plugin-babel@~4.5.0":
-  version "4.5.13"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/cli-plugin-babel/-/cli-plugin-babel-4.5.13.tgz#a89c482edcc4ea1d135645cec502a7f5fd4c30e7"
-  integrity sha1-qJxILtzE6h0TVkXOxQKn9f1MMOc=
+"@vue/cli-plugin-babel@~4.1.2":
+  version "4.1.2"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/cli-plugin-babel/-/cli-plugin-babel-4.1.2.tgz#b03880617727fe786b28cef43ef53d47b83b0c28"
+  integrity sha1-sDiAYXcn/nhrKM70PvU9R7g7DCg=
   dependencies:
-    "@babel/core" "^7.11.0"
-    "@vue/babel-preset-app" "^4.5.13"
-    "@vue/cli-shared-utils" "^4.5.13"
-    babel-loader "^8.1.0"
+    "@babel/core" "^7.7.4"
+    "@vue/babel-preset-app" "^4.1.2"
+    "@vue/cli-shared-utils" "^4.1.2"
+    babel-loader "^8.0.6"
     cache-loader "^4.1.0"
     thread-loader "^2.1.3"
     webpack "^4.0.0"
 
-"@vue/cli-plugin-eslint@~4.5.0":
-  version "4.5.13"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/cli-plugin-eslint/-/cli-plugin-eslint-4.5.13.tgz#8baf22d0d96d76720c7506646b96f4f62c05bdfa"
-  integrity sha1-i68i0NltdnIMdQZka5b09iwFvfo=
+"@vue/cli-plugin-eslint@~4.1.2":
+  version "4.1.2"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/cli-plugin-eslint/-/cli-plugin-eslint-4.1.2.tgz#173d2a40beb7debc03a217db3bb4c67cbf255bd6"
+  integrity sha1-Fz0qQL633rwDohfbO7TGfL8lW9Y=
   dependencies:
-    "@vue/cli-shared-utils" "^4.5.13"
-    eslint-loader "^2.2.1"
+    "@vue/cli-shared-utils" "^4.1.2"
+    eslint-loader "^2.1.2"
     globby "^9.2.0"
-    inquirer "^7.1.0"
     webpack "^4.0.0"
     yorkie "^2.0.0"
 
-"@vue/cli-plugin-router@^4.5.13":
+"@vue/cli-plugin-router@^4.1.2":
   version "4.5.13"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/cli-plugin-router/-/cli-plugin-router-4.5.13.tgz#0b67c8898a2bf132941919a2a2e5f3aacbd9ffbe"
   integrity sha1-C2fIiYor8TKUGRmiouXzqsvZ/74=
   dependencies:
     "@vue/cli-shared-utils" "^4.5.13"
 
-"@vue/cli-plugin-vuex@^4.5.13", "@vue/cli-plugin-vuex@~4.5.0":
+"@vue/cli-plugin-vuex@^4.1.2":
   version "4.5.13"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/cli-plugin-vuex/-/cli-plugin-vuex-4.5.13.tgz#98646d8bc1e69cf6c6a6cba2fed3eace0356c360"
   integrity sha1-mGRti8HmnPbGpsui/tPqzgNWw2A=
 
-"@vue/cli-service@~4.5.0":
-  version "4.5.13"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/cli-service/-/cli-service-4.5.13.tgz#a09e684a801684b6e24e5414ad30650970eec9ed"
-  integrity sha1-oJ5oSoAWhLbiTlQUrTBlCXDuye0=
+"@vue/cli-plugin-vuex@~4.1.2":
+  version "4.1.2"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/cli-plugin-vuex/-/cli-plugin-vuex-4.1.2.tgz#5e728b56ad9de2f062a8944f838affa0297ccb99"
+  integrity sha1-XnKLVq2d4vBiqJRPg4r/oCl8y5k=
+
+"@vue/cli-service@~4.1.2":
+  version "4.1.2"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/cli-service/-/cli-service-4.1.2.tgz#005f1dbd4626237eec79b256f3d928081884c325"
+  integrity sha1-AF8dvUYmI37sebJW89koCBiEwyU=
   dependencies:
     "@intervolga/optimize-cssnano-plugin" "^1.0.5"
     "@soda/friendly-errors-webpack-plugin" "^1.7.1"
-    "@soda/get-current-script" "^1.0.0"
-    "@types/minimist" "^1.2.0"
-    "@types/webpack" "^4.0.0"
-    "@types/webpack-dev-server" "^3.11.0"
-    "@vue/cli-overlay" "^4.5.13"
-    "@vue/cli-plugin-router" "^4.5.13"
-    "@vue/cli-plugin-vuex" "^4.5.13"
-    "@vue/cli-shared-utils" "^4.5.13"
-    "@vue/component-compiler-utils" "^3.1.2"
+    "@vue/cli-overlay" "^4.1.2"
+    "@vue/cli-plugin-router" "^4.1.2"
+    "@vue/cli-plugin-vuex" "^4.1.2"
+    "@vue/cli-shared-utils" "^4.1.2"
+    "@vue/component-compiler-utils" "^3.0.2"
     "@vue/preload-webpack-plugin" "^1.1.0"
     "@vue/web-component-wrapper" "^1.2.0"
-    acorn "^7.4.0"
-    acorn-walk "^7.1.1"
+    acorn "^6.1.1"
+    acorn-walk "^6.1.1"
     address "^1.1.2"
-    autoprefixer "^9.8.6"
-    browserslist "^4.12.0"
+    autoprefixer "^9.7.2"
+    browserslist "^4.7.3"
     cache-loader "^4.1.0"
-    case-sensitive-paths-webpack-plugin "^2.3.0"
+    case-sensitive-paths-webpack-plugin "^2.2.0"
     cli-highlight "^2.1.4"
-    clipboardy "^2.3.0"
-    cliui "^6.0.0"
-    copy-webpack-plugin "^5.1.1"
-    css-loader "^3.5.3"
+    clipboardy "^2.0.0"
+    cliui "^5.0.0"
+    copy-webpack-plugin "^5.0.5"
+    css-loader "^3.1.0"
     cssnano "^4.1.10"
+    current-script-polyfill "^1.0.0"
     debug "^4.1.1"
     default-gateway "^5.0.5"
     dotenv "^8.2.0"
@@ -1333,32 +1203,30 @@
     file-loader "^4.2.0"
     fs-extra "^7.0.1"
     globby "^9.2.0"
-    hash-sum "^2.0.0"
+    hash-sum "^1.0.2"
     html-webpack-plugin "^3.2.0"
     launch-editor-middleware "^2.2.1"
     lodash.defaultsdeep "^4.6.1"
     lodash.mapvalues "^4.6.0"
     lodash.transform "^4.6.0"
-    mini-css-extract-plugin "^0.9.0"
-    minimist "^1.2.5"
-    pnp-webpack-plugin "^1.6.4"
-    portfinder "^1.0.26"
+    mini-css-extract-plugin "^0.8.0"
+    minimist "^1.2.0"
+    portfinder "^1.0.25"
     postcss-loader "^3.0.0"
-    ssri "^8.0.1"
-    terser-webpack-plugin "^1.4.4"
+    read-pkg "^5.1.1"
+    ssri "^7.1.0"
+    terser-webpack-plugin "^2.2.1"
     thread-loader "^2.1.3"
     url-loader "^2.2.0"
-    vue-loader "^15.9.2"
-    vue-style-loader "^4.1.2"
+    vue-loader "^15.7.2"
+    vue-style-loader "^4.1.0"
     webpack "^4.0.0"
-    webpack-bundle-analyzer "^3.8.0"
-    webpack-chain "^6.4.0"
-    webpack-dev-server "^3.11.0"
+    webpack-bundle-analyzer "^3.6.0"
+    webpack-chain "^6.0.0"
+    webpack-dev-server "^3.9.0"
     webpack-merge "^4.2.2"
-  optionalDependencies:
-    vue-loader-v16 "npm:vue-loader@^16.1.0"
 
-"@vue/cli-shared-utils@^4.5.13":
+"@vue/cli-shared-utils@^4.1.2", "@vue/cli-shared-utils@^4.5.13":
   version "4.5.13"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/cli-shared-utils/-/cli-shared-utils-4.5.13.tgz#acd40f31b4790f1634292bdaa5fca95dc1e0ff50"
   integrity sha1-rNQPMbR5DxY0KSvapfypXcHg/1A=
@@ -1376,7 +1244,7 @@
     semver "^6.1.0"
     strip-ansi "^6.0.0"
 
-"@vue/component-compiler-utils@^3.1.0", "@vue/component-compiler-utils@^3.1.2":
+"@vue/component-compiler-utils@^3.0.2", "@vue/component-compiler-utils@^3.1.0":
   version "3.2.2"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/@vue/component-compiler-utils/-/component-compiler-utils-3.2.2.tgz#2f7ed5feed82ff7f0284acc11d525ee7eff22460"
   integrity sha1-L37V/u2C/38ChKzBHVJe5+/yJGA=
@@ -1579,17 +1447,22 @@ acorn-jsx@^5.2.0:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
   integrity sha1-ftW7VZCLOy8bxVxq8WU7rafweTc=
 
+acorn-walk@^6.1.1:
+  version "6.2.0"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/acorn-walk/-/acorn-walk-6.2.0.tgz#123cb8f3b84c2171f1f7fb252615b1c78a6b1a8c"
+  integrity sha1-Ejy487hMIXHx9/slJhWxx4prGow=
+
 acorn-walk@^7.1.1:
   version "7.2.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/acorn-walk/-/acorn-walk-7.2.0.tgz#0de889a601203909b0fbe07b8938dc21d2e967bc"
   integrity sha1-DeiJpgEgOQmw++B7iTjcIdLpZ7w=
 
-acorn@^6.4.1:
+acorn@^6.1.1, acorn@^6.4.1:
   version "6.4.2"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/acorn/-/acorn-6.4.2.tgz#35866fd710528e92de10cf06016498e47e39e1e6"
   integrity sha1-NYZv1xBSjpLeEM8GAWSY5H454eY=
 
-acorn@^7.1.1, acorn@^7.4.0:
+acorn@^7.1.1:
   version "7.4.1"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha1-/q7SVZc9LndVW4PbwIhRpsY1IPo=
@@ -1598,6 +1471,14 @@ address@^1.1.2:
   version "1.1.2"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/address/-/address-1.1.2.tgz#bf1116c9c758c51b7a933d296b72c221ed9428b6"
   integrity sha1-vxEWycdYxRt6kz0pa3LCIe2UKLY=
+
+aggregate-error@^3.0.0:
+  version "3.1.0"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/aggregate-error/-/aggregate-error-3.1.0.tgz#92670ff50f5359bdb7a3e0d40d0ec30c5737687a"
+  integrity sha1-kmcP9Q9TWb23o+DUDQ7DDFc3aHo=
+  dependencies:
+    clean-stack "^2.0.0"
+    indent-string "^4.0.0"
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -1688,7 +1569,7 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-anymatch@^3.0.0, anymatch@~3.1.2:
+anymatch@~3.1.2:
   version "3.1.2"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/anymatch/-/anymatch-3.1.2.tgz#c0557c096af32f106198f4f4e2a383537e378716"
   integrity sha1-wFV8CWrzLxBhmPT04qODU343hxY=
@@ -1847,7 +1728,7 @@ atob@^2.1.2:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k=
 
-autoprefixer@^9.8.6:
+autoprefixer@^9.7.2:
   version "9.8.6"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/autoprefixer/-/autoprefixer-9.8.6.tgz#3b73594ca1bf9266320c5acf1588d74dea74210f"
   integrity sha1-O3NZTKG/kmYyDFrPFYjXTep0IQ8=
@@ -1882,7 +1763,7 @@ babel-eslint@^10.1.0:
     eslint-visitor-keys "^1.0.0"
     resolve "^1.12.0"
 
-babel-loader@^8.1.0:
+babel-loader@^8.0.6:
   version "8.2.2"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/babel-loader/-/babel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
   integrity sha1-k2POhMEMmkDmx1N0jhRBtgyKC4E=
@@ -2067,7 +1948,7 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-braces@^3.0.1, braces@~3.0.2:
+braces@~3.0.2:
   version "3.0.2"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
   integrity sha1-NFThpGLujVmeI23zNs2epPiv4Qc=
@@ -2140,7 +2021,7 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.16.6:
+browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.16.6, browserslist@^4.7.3:
   version "4.16.6"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/browserslist/-/browserslist-4.16.6.tgz#d7901277a5a88e554ed305b183ec9b0c08f66fa2"
   integrity sha1-15ASd6WojlVO0wWxg+ybDAj2b6I=
@@ -2215,6 +2096,30 @@ cacache@^12.0.2, cacache@^12.0.3:
     ssri "^6.0.1"
     unique-filename "^1.1.1"
     y18n "^4.0.0"
+
+cacache@^13.0.1:
+  version "13.0.1"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/cacache/-/cacache-13.0.1.tgz#a8000c21697089082f85287a1aec6e382024a71c"
+  integrity sha1-qAAMIWlwiQgvhSh6GuxuOCAkpxw=
+  dependencies:
+    chownr "^1.1.2"
+    figgy-pudding "^3.5.1"
+    fs-minipass "^2.0.0"
+    glob "^7.1.4"
+    graceful-fs "^4.2.2"
+    infer-owner "^1.0.4"
+    lru-cache "^5.1.1"
+    minipass "^3.0.0"
+    minipass-collect "^1.0.2"
+    minipass-flush "^1.0.5"
+    minipass-pipeline "^1.2.2"
+    mkdirp "^0.5.1"
+    move-concurrently "^1.0.1"
+    p-map "^3.0.0"
+    promise-inflight "^1.0.1"
+    rimraf "^2.7.1"
+    ssri "^7.0.0"
+    unique-filename "^1.1.1"
 
 cache-base@^1.0.1:
   version "1.0.1"
@@ -2309,11 +2214,11 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001219:
-  version "1.0.30001247"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/caniuse-lite/-/caniuse-lite-1.0.30001247.tgz#105be7a8fb30cdd303275e769a9dfb87d4b3577a"
-  integrity sha1-EFvnqPswzdMDJ152mp37h9SzV3o=
+  version "1.0.30001248"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/caniuse-lite/-/caniuse-lite-1.0.30001248.tgz#26ab45e340f155ea5da2920dadb76a533cb8ebce"
+  integrity sha1-JqtF40DxVepdopINrbdqUzy4684=
 
-case-sensitive-paths-webpack-plugin@^2.3.0:
+case-sensitive-paths-webpack-plugin@^2.2.0:
   version "2.4.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.4.0.tgz#db64066c6422eed2e08cc14b986ca43796dbc6d4"
   integrity sha1-22QGbGQi7tLgjMFLmGykN5bbxtQ=
@@ -2384,7 +2289,7 @@ chokidar@^3.4.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
-chownr@^1.1.1:
+chownr@^1.1.1, chownr@^1.1.2:
   version "1.1.4"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/chownr/-/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
   integrity sha1-b8nXtC0ypYNZYzdmbn0ICE2izGs=
@@ -2424,6 +2329,11 @@ clean-css@4.2.x:
   dependencies:
     source-map "~0.6.0"
 
+clean-stack@^2.0.0:
+  version "2.2.0"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
+  integrity sha1-7oRy27Ep5yezHooQpCfe6d/kAIs=
+
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
@@ -2460,7 +2370,7 @@ cli-width@^3.0.0:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/cli-width/-/cli-width-3.0.0.tgz#a2f48437a2caa9a22436e794bf071ec9e61cedf6"
   integrity sha1-ovSEN6LKqaIkNueUvwceyeYc7fY=
 
-clipboardy@^2.3.0:
+clipboardy@^2.0.0:
   version "2.3.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/clipboardy/-/clipboardy-2.3.0.tgz#3c2903650c68e46a91b388985bc2774287dba290"
   integrity sha1-PCkDZQxo5GqRs4iYW8J3QofbopA=
@@ -2477,15 +2387,6 @@ cliui@^5.0.0:
     string-width "^3.1.0"
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
-
-cliui@^6.0.0:
-  version "6.0.0"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/cliui/-/cliui-6.0.0.tgz#511d702c0c4e41ca156d7d0e96021f23e13225b1"
-  integrity sha1-UR1wLAxOQcoVbX0OlgIfI+EyJbE=
-  dependencies:
-    string-width "^4.2.0"
-    strip-ansi "^6.0.0"
-    wrap-ansi "^6.2.0"
 
 cliui@^7.0.2:
   version "7.0.4"
@@ -2698,7 +2599,7 @@ copy-descriptor@^0.1.0:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-copy-webpack-plugin@^5.1.1:
+copy-webpack-plugin@^5.0.5:
   version "5.1.2"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/copy-webpack-plugin/-/copy-webpack-plugin-5.1.2.tgz#8a889e1dcafa6c91c6cd4be1ad158f1d3823bae2"
   integrity sha1-ioieHcr6bJHGzUvhrRWPHTgjuuI=
@@ -2834,7 +2735,7 @@ css-declaration-sorter@^4.0.1:
     postcss "^7.0.1"
     timsort "^0.3.0"
 
-css-loader@^3.5.3:
+css-loader@^3.1.0:
   version "3.6.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/css-loader/-/css-loader-3.6.0.tgz#2e4b2c7e6e2d27f8c8f28f61bffcd2e6c91ef645"
   integrity sha1-Lkssfm4tJ/jI8o9hv/zS5ske9kU=
@@ -2984,6 +2885,11 @@ csso@^4.0.2:
   integrity sha1-6jpWE0bo3J9UbW/r7dUBh884lSk=
   dependencies:
     css-tree "^1.1.2"
+
+current-script-polyfill@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/current-script-polyfill/-/current-script-polyfill-1.0.0.tgz#f31cf7e4f3e218b0726e738ca92a02d3488ef615"
+  integrity sha1-8xz35PPiGLBybnOMqSoC00iO9hU=
 
 cyclist@^1.0.1:
   version "1.0.1"
@@ -3484,7 +3390,7 @@ eslint-import-resolver-webpack@^0.12.1:
     resolve "^1.13.1"
     semver "^5.7.1"
 
-eslint-loader@^2.2.1:
+eslint-loader@^2.1.2:
   version "2.2.1"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/eslint-loader/-/eslint-loader-2.2.1.tgz#28b9c12da54057af0845e2a6112701a2f6bf8337"
   integrity sha1-KLnBLaVAV68IReKmEScBova/gzc=
@@ -4106,6 +4012,13 @@ fs-extra@^7.0.1:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
+fs-minipass@^2.0.0:
+  version "2.1.0"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/fs-minipass/-/fs-minipass-2.1.0.tgz#7f5036fdbf12c63c169190cbe4199c852271f9fb"
+  integrity sha1-f1A2/b8SxjwWkZDL5BmchSJx+fs=
+  dependencies:
+    minipass "^3.0.0"
+
 fs-write-stream-atomic@^1.0.8:
   version "1.0.10"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/fs-write-stream-atomic/-/fs-write-stream-atomic-1.0.10.tgz#b47df53493ef911df75731e70a9ded0189db40c9"
@@ -4275,7 +4188,7 @@ globby@^9.2.0:
     pify "^4.0.1"
     slash "^2.0.0"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
+graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.2:
   version "4.2.6"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha1-/wQLKwhTsjw9MQJ1I3BvGIXXa+4=
@@ -4377,11 +4290,6 @@ hash-sum@^1.0.2:
   version "1.0.2"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/hash-sum/-/hash-sum-1.0.2.tgz#33b40777754c6432573c120cc3808bbd10d47f04"
   integrity sha1-M7QHd3VMZDJXPBIMw4CLvRDUfwQ=
-
-hash-sum@^2.0.0:
-  version "2.0.0"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/hash-sum/-/hash-sum-2.0.0.tgz#81d01bb5de8ea4a214ad5d6ead1b523460b0b45a"
-  integrity sha1-gdAbtd6OpKIUrV1urRtSNGCwtFo=
 
 hash.js@^1.0.0, hash.js@^1.0.3:
   version "1.1.7"
@@ -4548,18 +4456,7 @@ http-proxy-middleware@0.19.1:
     lodash "^4.17.11"
     micromatch "^3.1.10"
 
-http-proxy-middleware@^1.0.0:
-  version "1.3.1"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/http-proxy-middleware/-/http-proxy-middleware-1.3.1.tgz#43700d6d9eecb7419bf086a128d0f7205d9eb665"
-  integrity sha1-Q3ANbZ7st0Gb8IahKND3IF2etmU=
-  dependencies:
-    "@types/http-proxy" "^1.17.5"
-    http-proxy "^1.18.1"
-    is-glob "^4.0.1"
-    is-plain-obj "^3.0.0"
-    micromatch "^4.0.2"
-
-http-proxy@^1.17.0, http-proxy@^1.18.1:
+http-proxy@^1.17.0:
   version "1.18.1"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
   integrity sha1-QBVB8FNIhLv5UmAzTnL4juOXZUk=
@@ -4669,12 +4566,17 @@ imurmurhash@^0.1.4:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
 
+indent-string@^4.0.0:
+  version "4.0.0"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
+  integrity sha1-Yk+PRJfWGbLZdoUx1Y9BIoVNclE=
+
 indexes-of@^1.0.1:
   version "1.0.1"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
   integrity sha1-8w9xbI4r00bHtn0985FVZqfAVgc=
 
-infer-owner@^1.0.3:
+infer-owner@^1.0.3, infer-owner@^1.0.4:
   version "1.0.4"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/infer-owner/-/infer-owner-1.0.4.tgz#c4cefcaa8e51051c2a40ba2ce8a3d27295af9467"
   integrity sha1-xM78qo5RBRwqQLos6KPScpWvlGc=
@@ -4702,7 +4604,7 @@ inherits@2.0.3:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
-inquirer@^7.0.0, inquirer@^7.1.0:
+inquirer@^7.0.0:
   version "7.3.3"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/inquirer/-/inquirer-7.3.3.tgz#04d176b2af04afc157a83fd7c100e98ee0aad003"
   integrity sha1-BNF2sq8Er8FXqD/XwQDpjuCq0AM=
@@ -4991,11 +4893,6 @@ is-plain-obj@^1.0.0:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/is-plain-obj/-/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
   integrity sha1-caUMhCnfync8kqOQpKA7OfzVHT4=
 
-is-plain-obj@^3.0.0:
-  version "3.0.0"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/is-plain-obj/-/is-plain-obj-3.0.0.tgz#af6f2ea14ac5a646183a5bbdb5baabbc156ad9d7"
-  integrity sha1-r28uoUrFpkYYOlu9tbqrvBVq2dc=
-
 is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   version "2.0.4"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
@@ -5091,6 +4988,14 @@ javascript-stringify@^2.0.1:
   version "2.1.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/javascript-stringify/-/javascript-stringify-2.1.0.tgz#27c76539be14d8bd128219a2d731b09337904e79"
   integrity sha1-J8dlOb4U2L0Sghmi1zGwkzeQTnk=
+
+jest-worker@^25.4.0:
+  version "25.5.0"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/jest-worker/-/jest-worker-25.5.0.tgz#2611d071b79cea0f43ee57a3d118593ac1547db1"
+  integrity sha1-JhHQcbec6g9D7lej0RhZOsFUfbE=
+  dependencies:
+    merge-stream "^2.0.0"
+    supports-color "^7.0.0"
 
 js-message@1.0.7:
   version "1.0.7"
@@ -5301,15 +5206,6 @@ loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.2.3, loader-utils@^1.4
     big.js "^5.2.2"
     emojis-list "^3.0.0"
     json5 "^1.0.1"
-
-loader-utils@^2.0.0:
-  version "2.0.0"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/loader-utils/-/loader-utils-2.0.0.tgz#e4cace5b816d425a166b5f097e10cd12b36064b0"
-  integrity sha1-5MrOW4FtQloWa18JfhDNErNgZLA=
-  dependencies:
-    big.js "^5.2.2"
-    emojis-list "^3.0.0"
-    json5 "^2.1.2"
 
 locate-path@^2.0.0:
   version "2.0.0"
@@ -5524,14 +5420,6 @@ micromatch@^3.1.10, micromatch@^3.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
 
-micromatch@^4.0.2:
-  version "4.0.4"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/micromatch/-/micromatch-4.0.4.tgz#896d519dfe9db25fce94ceb7a500919bf881ebf9"
-  integrity sha1-iW1Rnf6dsl/OlM63pQCRm/iB6/k=
-  dependencies:
-    braces "^3.0.1"
-    picomatch "^2.2.3"
-
 miller-rabin@^4.0.0:
   version "4.0.1"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/miller-rabin/-/miller-rabin-4.0.1.tgz#f080351c865b0dc562a8462966daa53543c78a4d"
@@ -5572,10 +5460,10 @@ mimic-fn@^2.1.0:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=
 
-mini-css-extract-plugin@^0.9.0:
-  version "0.9.0"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/mini-css-extract-plugin/-/mini-css-extract-plugin-0.9.0.tgz#47f2cf07aa165ab35733b1fc97d4c46c0564339e"
-  integrity sha1-R/LPB6oWWrNXM7H8l9TEbAVkM54=
+mini-css-extract-plugin@^0.8.0:
+  version "0.8.2"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/mini-css-extract-plugin/-/mini-css-extract-plugin-0.8.2.tgz#a875e169beb27c88af77dd962771c9eedc3da161"
+  integrity sha1-qHXhab6yfIivd92WJ3HJ7tw9oWE=
   dependencies:
     loader-utils "^1.1.0"
     normalize-url "1.9.1"
@@ -5604,7 +5492,28 @@ minimist@^1.2.0, minimist@^1.2.5:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
 
-minipass@^3.1.1:
+minipass-collect@^1.0.2:
+  version "1.0.2"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/minipass-collect/-/minipass-collect-1.0.2.tgz#22b813bf745dc6edba2576b940022ad6edc8c617"
+  integrity sha1-IrgTv3Rdxu26JXa5QAIq1u3Ixhc=
+  dependencies:
+    minipass "^3.0.0"
+
+minipass-flush@^1.0.5:
+  version "1.0.5"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/minipass-flush/-/minipass-flush-1.0.5.tgz#82e7135d7e89a50ffe64610a787953c4c4cbb373"
+  integrity sha1-gucTXX6JpQ/+ZGEKeHlTxMTLs3M=
+  dependencies:
+    minipass "^3.0.0"
+
+minipass-pipeline@^1.2.2:
+  version "1.2.4"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/minipass-pipeline/-/minipass-pipeline-1.2.4.tgz#68472f79711c084657c067c5c6ad93cddea8214c"
+  integrity sha1-aEcveXEcCEZXwGfFxq2Tzd6oIUw=
+  dependencies:
+    minipass "^3.0.0"
+
+minipass@^3.0.0, minipass@^3.1.1:
   version "3.1.3"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/minipass/-/minipass-3.1.3.tgz#7d42ff1f39635482e15f9cdb53184deebd5815fd"
   integrity sha1-fUL/HzljVILhX5zbUxhN7r1YFf0=
@@ -6077,7 +5986,7 @@ p-limit@^1.1.0:
   dependencies:
     p-try "^1.0.0"
 
-p-limit@^2.0.0, p-limit@^2.2.0, p-limit@^2.2.1:
+p-limit@^2.0.0, p-limit@^2.2.0, p-limit@^2.2.1, p-limit@^2.3.0:
   version "2.3.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
   integrity sha1-PdM8ZHohT9//2DWTPrCG2g3CHbE=
@@ -6109,6 +6018,13 @@ p-map@^2.0.0:
   version "2.1.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/p-map/-/p-map-2.1.0.tgz#310928feef9c9ecc65b68b17693018a665cea175"
   integrity sha1-MQko/u+cnsxltosXaTAYpmXOoXU=
+
+p-map@^3.0.0:
+  version "3.0.0"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/p-map/-/p-map-3.0.0.tgz#d704d9af8a2ba684e2600d9a215983d4141a979d"
+  integrity sha1-1wTZr4orpoTiYA2aIVmD1BQal50=
+  dependencies:
+    aggregate-error "^3.0.0"
 
 p-retry@^3.0.1:
   version "3.0.1"
@@ -6291,7 +6207,7 @@ performance-now@^2.1.0:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
-picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
+picomatch@^2.0.4, picomatch@^2.2.1:
   version "2.3.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha1-8fBh3o9qS/AiiS4tEoI0+5gwKXI=
@@ -6358,14 +6274,7 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-pnp-webpack-plugin@^1.6.4:
-  version "1.7.0"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/pnp-webpack-plugin/-/pnp-webpack-plugin-1.7.0.tgz#65741384f6d8056f36e2255a8d67ffc20866f5c9"
-  integrity sha1-ZXQThPbYBW824iVajWf/wghm9ck=
-  dependencies:
-    ts-pnp "^1.1.6"
-
-portfinder@^1.0.26:
+portfinder@^1.0.25, portfinder@^1.0.26:
   version "1.0.28"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/portfinder/-/portfinder-1.0.28.tgz#67c4622852bd5374dd1dd900f779f53462fac778"
   integrity sha1-Z8RiKFK9U3TdHdkA93n1NGL6x3g=
@@ -7182,7 +7091,7 @@ rimraf@2.6.3:
   dependencies:
     glob "^7.1.3"
 
-rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.3:
+rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.3, rimraf@^2.7.1:
   version "2.7.1"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
   integrity sha1-NXl/E6f9rcVmFCwp1PB8ytSD4+w=
@@ -7252,7 +7161,7 @@ schema-utils@^1.0.0:
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
 
-schema-utils@^2.0.0, schema-utils@^2.5.0, schema-utils@^2.6.5, schema-utils@^2.7.0:
+schema-utils@^2.0.0, schema-utils@^2.5.0, schema-utils@^2.6.5, schema-utils@^2.6.6, schema-utils@^2.7.0:
   version "2.7.1"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/schema-utils/-/schema-utils-2.7.1.tgz#1ca4f32d1b24c590c203b8e7a50bf0ea4cd394d7"
   integrity sha1-HKTzLRskxZDCA7jnpQvw6kzTlNc=
@@ -7532,11 +7441,6 @@ source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
 
-source-map@^0.7.3:
-  version "0.7.3"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
-  integrity sha1-UwL4FpAxc1ImVECS5kmB91F1A4M=
-
 spdx-correct@^3.0.0:
   version "3.1.1"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/spdx-correct/-/spdx-correct-3.1.1.tgz#dece81ac9c1e6713e5f7d1b6f17d468fa53d89a9"
@@ -7620,11 +7524,12 @@ ssri@^6.0.1:
   dependencies:
     figgy-pudding "^3.5.1"
 
-ssri@^8.0.1:
-  version "8.0.1"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/ssri/-/ssri-8.0.1.tgz#638e4e439e2ffbd2cd289776d5ca457c4f51a2af"
-  integrity sha1-Y45OQ54v+9LNKJd21cpFfE9Roq8=
+ssri@^7.0.0, ssri@^7.1.0:
+  version "7.1.1"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/ssri/-/ssri-7.1.1.tgz#33e44f896a967158e3c63468e47ec46613b95b5f"
+  integrity sha1-M+RPiWqWcVjjxjRo5H7EZhO5W18=
   dependencies:
+    figgy-pudding "^3.5.1"
     minipass "^3.1.1"
 
 stable@^0.1.8:
@@ -7819,7 +7724,7 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-supports-color@^7.1.0:
+supports-color@^7.0.0, supports-color@^7.1.0:
   version "7.2.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/supports-color/-/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
   integrity sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=
@@ -7870,7 +7775,7 @@ tapable@^1.0.0, tapable@^1.1.3:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/tapable/-/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
   integrity sha1-ofzMBrWNth/XpF2i2kT186Pme6I=
 
-terser-webpack-plugin@^1.4.3, terser-webpack-plugin@^1.4.4:
+terser-webpack-plugin@^1.4.3:
   version "1.4.5"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/terser-webpack-plugin/-/terser-webpack-plugin-1.4.5.tgz#a217aefaea330e734ffacb6120ec1fa312d6040b"
   integrity sha1-oheu+uozDnNP+sthIOwfoxLWBAs=
@@ -7885,7 +7790,22 @@ terser-webpack-plugin@^1.4.3, terser-webpack-plugin@^1.4.4:
     webpack-sources "^1.4.0"
     worker-farm "^1.7.0"
 
-terser@^4.1.2:
+terser-webpack-plugin@^2.2.1:
+  version "2.3.8"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/terser-webpack-plugin/-/terser-webpack-plugin-2.3.8.tgz#894764a19b0743f2f704e7c2a848c5283a696724"
+  integrity sha1-iUdkoZsHQ/L3BOfCqEjFKDppZyQ=
+  dependencies:
+    cacache "^13.0.1"
+    find-cache-dir "^3.3.1"
+    jest-worker "^25.4.0"
+    p-limit "^2.3.0"
+    schema-utils "^2.6.6"
+    serialize-javascript "^4.0.0"
+    source-map "^0.6.1"
+    terser "^4.6.12"
+    webpack-sources "^1.4.3"
+
+terser@^4.1.2, terser@^4.6.12:
   version "4.8.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/terser/-/terser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
   integrity sha1-YwVjQ9fHC7KfOvZlhlpG/gOg3xc=
@@ -8023,11 +7943,6 @@ tryer@^1.0.1:
   version "1.0.1"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
   integrity sha1-8shUBoALmw90yfdGW4HqrSQSUvg=
-
-ts-pnp@^1.1.6:
-  version "1.2.0"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
-  integrity sha1-pQCtCEsHmPHDBxrzkeZZEshrypI=
 
 tsconfig-paths@^3.9.0:
   version "3.10.1"
@@ -8335,9 +8250,9 @@ vm-browserify@^1.0.1:
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
 
 vue-eslint-parser@^7.0.0:
-  version "7.9.0"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/vue-eslint-parser/-/vue-eslint-parser-7.9.0.tgz#5eeedc71f22ebc7b18b957d1ab171acf29a41e64"
-  integrity sha1-Xu7ccfIuvHsYuVfRqxcazymkHmQ=
+  version "7.10.0"
+  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/vue-eslint-parser/-/vue-eslint-parser-7.10.0.tgz#ea4e4b10fd10aa35c8a79ac783488d8abcd29be8"
+  integrity sha1-6k5LEP0QqjXIp5rHg0iNirzSm+g=
   dependencies:
     debug "^4.1.1"
     eslint-scope "^5.1.1"
@@ -8352,16 +8267,7 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha1-UylVzB6yCKPZkLOp+acFdGV+CPI=
 
-"vue-loader-v16@npm:vue-loader@^16.1.0":
-  version "16.3.3"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/vue-loader/-/vue-loader-16.3.3.tgz#e440e4eb12786e16138b5d98b612208f29ddf532"
-  integrity sha1-5EDk6xJ4bhYTi12YthIgjynd9TI=
-  dependencies:
-    chalk "^4.1.0"
-    hash-sum "^2.0.0"
-    loader-utils "^2.0.0"
-
-vue-loader@^15.9.2:
+vue-loader@^15.7.2:
   version "15.9.6"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/vue-loader/-/vue-loader-15.9.6.tgz#f4bb9ae20c3a8370af3ecf09b8126d38ffdb6b8b"
   integrity sha1-9Lua4gw6g3CvPs8JuBJtOP/ba4s=
@@ -8372,7 +8278,7 @@ vue-loader@^15.9.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
+vue-style-loader@^4.1.0:
   version "4.1.3"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/vue-style-loader/-/vue-style-loader-4.1.3.tgz#6d55863a51fa757ab24e89d9371465072aa7bc35"
   integrity sha1-bVWGOlH6dXqyTonZNxRlByqnvDU=
@@ -8435,7 +8341,7 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-webpack-bundle-analyzer@^3.8.0:
+webpack-bundle-analyzer@^3.6.0:
   version "3.9.0"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/webpack-bundle-analyzer/-/webpack-bundle-analyzer-3.9.0.tgz#f6f94db108fb574e415ad313de41a2707d33ef3c"
   integrity sha1-9vlNsQj7V05BWtMT3kGicH0z7zw=
@@ -8454,7 +8360,7 @@ webpack-bundle-analyzer@^3.8.0:
     opener "^1.5.1"
     ws "^6.0.0"
 
-webpack-chain@^6.4.0:
+webpack-chain@^6.0.0:
   version "6.5.1"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/webpack-chain/-/webpack-chain-6.5.1.tgz#4f27284cbbb637e3c8fbdef43eef588d4d861206"
   integrity sha1-TycoTLu2N+PI+970Pu9YjU2GEgY=
@@ -8473,7 +8379,7 @@ webpack-dev-middleware@^3.7.2:
     range-parser "^1.2.1"
     webpack-log "^2.0.0"
 
-webpack-dev-server@^3.11.0:
+webpack-dev-server@^3.9.0:
   version "3.11.2"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/webpack-dev-server/-/webpack-dev-server-3.11.2.tgz#695ebced76a4929f0d5de7fd73fafe185fe33708"
   integrity sha1-aV687Xakkp8NXef9c/r+GF/jNwg=
@@ -8527,7 +8433,7 @@ webpack-merge@^4.2.2:
   dependencies:
     lodash "^4.17.15"
 
-webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1:
+webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1, webpack-sources@^1.4.3:
   version "1.4.3"
   resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/webpack-sources/-/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
   integrity sha1-7t2OwLko+/HL/plOItLYkPMwqTM=
@@ -8628,15 +8534,6 @@ wrap-ansi@^5.1.0:
     ansi-styles "^3.2.0"
     string-width "^3.0.0"
     strip-ansi "^5.0.0"
-
-wrap-ansi@^6.2.0:
-  version "6.2.0"
-  resolved "https://artifactory.otxlab.net:443/artifactory/api/npm/NPM_ORG/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
-  integrity sha1-6Tk7oHEC5skaOyIUePAlfNKFblM=
-  dependencies:
-    ansi-styles "^4.0.0"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
 
 wrap-ansi@^7.0.0:
   version "7.0.0"
