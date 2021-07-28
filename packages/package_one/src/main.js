@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
-  // import * as pkgTwoStore from '@vue-workspace-test/package-two/src/store'
+// import * as pkgTwoStore from '@vue-workspace-test/package-two/src/store'
 
 Vue.config.productionTip = false
 
